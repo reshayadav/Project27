@@ -60,7 +60,10 @@ function draw() {
 
 function keyPressed(){
  	if(keyCode === UP_ARROW){
- 		Matter.Body.applyForce(bob3.body,bob3.body.position,{x:10, y:-3});
+		 console.log("hi");
+		 console.log(bob5.body);
+		 console.log(bob5.body.position);
+ 		Matter.Body.applyForce(bob5.body,bob5.body.position,{x:-40, y:-43});
  	}
  }
 
