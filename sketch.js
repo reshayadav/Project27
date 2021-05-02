@@ -55,6 +55,8 @@ function draw() {
   bob4.display();
   bob5.display();
   
+  fill("black");
+  text("press the up arrow key to start",220,30);
   
 }
 
@@ -63,7 +65,7 @@ function keyPressed(){
 		 console.log("hi");
 		 console.log(bob5.body);
 		 console.log(bob5.body.position);
- 		Matter.Body.applyForce(bob5.body,bob5.body.position,{x:-40, y:-43});
+ 		Matter.Body.applyForce(bob5.body,bob5.body.position,{x:-70, y:-73});
  	}
  }
 
